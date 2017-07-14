@@ -16,3 +16,5 @@ The good news is that your idea for the sphere-based parallax seems to work pret
 Another method for changing how pronounced the effect is would be to increase the scale of each sphere. The parallax script uses the radius of each sphere as a strength modifier.
 
 - Chris
+
+PS: This Unity project does not yet have a git ignore filled out.
