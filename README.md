@@ -9,7 +9,7 @@ When I imported the shared files into a new Unity project, they appear in the as
 
 I then installed Blender and tried to directly export the FBX into my Unity project's assets folder. This created a prefab that's usable, but it's the 3D meshes of the objects rather than being an inside-out sphere.
 
-But I came up with a work-around. I created 3 new spheres, applied the supplied textures to their materials, added a script to each that flips their normals, added a MouseLook script to the camera, and then wrote the parallax motion script.
+But I came up with a work-around. I created 3 new spheres, applied the supplied textures to their materials, added a script to each that ~~flips their normals~~ flips the mesh's triangles inside-out, added a MouseLook script to the camera, and then wrote the parallax motion script.
 
 The good news is that your idea for the sphere-based parallax seems to work pretty well! When you first play the project, the parallax effect might seem very subtle, so I added in an "exaggerator" value that you can use to change how pronounced the parallax effect is. By default it's set at 0.5, but can be bumped up for a more exaggerated effect.
 
